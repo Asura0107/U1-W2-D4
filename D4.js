@@ -125,6 +125,14 @@ console.log(reverseString(str));*/
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
+function cutString(str12) {
+  let pukka = str12.split("");
+  let Pukka1 = pukka.slice(1, -1).join();
+
+  return Pukka1;
+}
+let str12 = prompt();
+console.log(cutString(str12));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
