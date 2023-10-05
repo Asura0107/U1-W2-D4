@@ -88,7 +88,7 @@ console.log(WWord);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-function check3and7(d) {
+/*function check3and7(d) {
   if (d % 3 === 0) {
     return "è multiplo di 3";
   } else if (d % 7 === 0) {
@@ -98,13 +98,21 @@ function check3and7(d) {
   }
 }
 let d = Math.abs(prompt());
-console.log(check3and7(d));
+console.log(check3and7(d));*/
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+/*function reverseString(str) {
+  let STRinga1 = str.split("");
+  let Stringa2 = STRinga1.reverse();
+  let STringa3 = Stringa2.join("");
+
+  return STringa3;
+}
+let str = prompt();
+console.log(reverseString(str));*/
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
